@@ -1,74 +1,51 @@
 # Yonathan Emmanuel
 
-**Biomedical / analytical scientist · computational health · regulated software & data systems**
+**Biomedical and analytical scientist | Computational health | Scientific software**
 
-I build at the intersection of experimental science, quantitative analysis, biomedical data, and software engineering. This GitHub portfolio is intentionally composed of **non-proprietary reference implementations** that demonstrate how I approach scientific computation, quality systems, reproducibility, validation, and software intended for health or regulated environments.
+I am a biomedical and analytical scientist with more than 20 years of experience in biopharmaceutical research and development, including analytical development, bioanalysis, assay development, method validation, and regulated laboratory work.
 
-## Core competency map
+My recent work has expanded into computational health, biomedical data analysis, machine learning, and software development using Python, R, SQL, Swift, and related tools.
 
-| Domain | Evidence |
-|---|---|
-| Analytical / bioanalytical science | analytical method validation, assay statistics, potency/curve analysis |
-| Clinical laboratory quality | statistical QC, rule systems, traceable laboratory data-quality checks |
-| Biomedical data engineering | longitudinal health data normalization, provenance, missingness, time-window logic |
-| Machine learning | reproducible biomedical ML, leakage controls, deterministic experiments |
-| Regulated software / SaMD | requirements traceability, risk controls, verification architecture, lifecycle discipline |
-| Swift / health software | typed domain models, protocol-driven adapters, deterministic health-data aggregation |
-| Scientific software engineering | tests, CI, packaging, auditability, explicit assumptions and failure modes |
+This GitHub contains public technical projects related to that work. The repositories use synthetic or public data and are kept separate from confidential employer work and proprietary BioMIR source code.
 
-## Flagship public repositories
+## Selected projects
 
-### Regulated software & computational health
-- **[`samd-engineering-reference`](https://github.com/biomir/samd-engineering-reference)**  
-  Requirements → risk controls → verification traceability, lifecycle documentation, and automated traceability checks.
+### Analytical and bioanalytical science
 
-- **`swift-health-data-architecture`**  
-  Swift package demonstrating domain-layer architecture for health data, deterministic aggregation, testable store abstractions, and an optional HealthKit adapter boundary.
+**[`analytical-method-validation-python`](https://github.com/biomir/analytical-method-validation-python)**  
+Python implementations of common analytical validation calculations, including precision, accuracy, linearity, LOD/LOQ, acceptance criteria, tests, and reproducible examples.
 
-- **`longitudinal-health-data-engineering`**  
-  Synthetic wearable/health time-series pipeline covering normalization, provenance, timezone-aware daily aggregation, missingness, and data-quality summaries.
+**[`bioanalytical-assay-statistics`](https://github.com/biomir/bioanalytical-assay-statistics)**  
+Nonlinear assay analysis using 4-parameter logistic models, including EC50 estimation, inverse prediction, replicate precision, and fit diagnostics.
 
-### Analytical / laboratory science
-- **[`analytical-method-validation-python`](https://github.com/biomir/analytical-method-validation-python)**  
-  Auditable precision, accuracy, linearity, LOD/LOQ, acceptance-rule logic, tests, and CI.
+**[`clinical-lab-qc-python`](https://github.com/biomir/clinical-lab-qc-python)**  
+Statistical quality-control calculations and Westgard-style rule evaluation for laboratory data.
 
-- **`bioanalytical-assay-statistics`**  
-  4-parameter logistic assay modeling, EC50 estimation, inverse concentration estimation, fit diagnostics, and synthetic assay examples.
+### Biomedical data and machine learning
 
-- **[`clinical-lab-qc-python`](https://github.com/biomir/clinical-lab-qc-python)**  
-  Statistical QC and Westgard-style rule logic with explicit separation between signal detection and laboratory disposition.
+**[`longitudinal-health-data-engineering`](https://github.com/biomir/longitudinal-health-data-engineering)**  
+Examples of handling longitudinal health and wearable data, with attention to timestamps, units, provenance, missingness, duplicate observations, and daily aggregation.
 
-- **`regulated-data-quality-engineering`**  
-  Rule-based data quality, immutable audit results, and SQLite-backed QC evidence suitable for traceable regulated-data workflows.
+**[`biomedical-ml-reproducibility`](https://github.com/biomir/biomedical-ml-reproducibility)**  
+Tools and examples for reproducible biomedical machine-learning experiments, including dataset hashing, deterministic execution, experiment manifests, and leakage-aware pipelines.
 
-### Biomedical ML
-- **[`biomedical-ml-reproducibility`](https://github.com/biomir/biomedical-ml-reproducibility)**  
-  Dataset/config hashing, deterministic seeds, manifest generation, leakage-safe example pipelines, and reproducibility checklists.
+**[`regulated-data-quality-engineering`](https://github.com/biomir/regulated-data-quality-engineering)**  
+Rule-based data-quality checks with persistent audit results for traceable scientific and regulated-data workflows.
 
-## Engineering principles
+### Software and regulated product development
 
-1. **Scientific claims must be traceable to assumptions and evidence.**
-2. **Correct calculations are not equivalent to validated intended use.**
-3. **Data provenance and failure modes are first-class design concerns.**
-4. **Testing should include boundary conditions and misuse, not only nominal paths.**
-5. **Regulated engineering is strongest when traceability is generated continuously rather than reconstructed at release.**
-6. **Public demonstrations should prove capability without exposing confidential science, patient data, or proprietary implementation.**
+**[`samd-engineering-reference`](https://github.com/biomir/samd-engineering-reference)**  
+Reference implementations and documentation for software requirements, risk controls, verification, traceability, and lifecycle management in a regulated-product context.
 
-## Public portfolio boundary
+**[`swift-health-data-architecture`](https://github.com/biomir/swift-health-data-architecture)**  
+A Swift package exploring testable health-data architecture, typed observations, asynchronous data-store abstractions, deterministic aggregation, and separation of HealthKit-specific code from the domain layer.
 
-These repositories contain synthetic examples and generic engineering references. They do **not** contain proprietary BioMIR algorithms, private health data, confidential employer information, unpublished controlled methods, credentials, or regulated production records.
+## Technical areas
 
-## Current development direction
+Analytical method development and validation · bioanalytical statistics · potency and dose-response analysis · laboratory quality control · scientific Python · biomedical data engineering · longitudinal health data · machine learning · Swift/iOS development · software verification and validation · regulated software development
 
-The portfolio is being expanded toward deeper demonstrations of:
+## About the repositories
 
-- advanced bioanalytical statistics and assay modeling
-- longitudinal health / wearable data engineering
-- Swift health-software architecture
-- regulated data quality and provenance
-- model evaluation, uncertainty, and validation controls
-- release engineering, cybersecurity, and software lifecycle evidence
+The projects here are public technical examples rather than production systems. They do not contain proprietary BioMIR algorithms, private health records, confidential employer data, controlled laboratory methods, or production credentials.
 
----
-
-**GitHub:** [github.com/biomir](https://github.com/biomir)
+[github.com/biomir](https://github.com/biomir)
